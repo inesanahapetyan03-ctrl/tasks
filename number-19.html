@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>№19 — видеоразборы</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <a class="back-link" href="index.html">← Назад к разделам</a>
+
+    <h1 class="page-title">№19 — видеоразборы</h1>
+    <p class="page-subtitle">Разборы задач и задания для самостоятельного закрепления</p>
+
+    <div id="theory" class="theory-block" hidden>
+      <div>
+        <h3>Теория</h3>
+        <p>Базовые идеи и подходы к решению задания №19</p>
+      </div>
+      <a id="theory-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="#">Открыть теорию</a>
+    </div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="controls">
+      <input
+        id="search"
+        class="search"
+        type="search"
+        inputmode="numeric"
+        placeholder="Найти задачу, например 37"
+        aria-label="Поиск задачи по номеру"
+      />
+      <nav class="range-nav" id="range-nav" aria-label="Быстрый переход"></nav>
+    </div>
+
+    <div id="groups"></div>
+    <div id="empty" class="empty" hidden>Ничего не найдено</div>
+  </main>
+
+  <script src="data/19.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
