@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>№19 — видеоразборы</title>
+  <title>№17 — видеоразборы</title>
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <main class="container">
     <a class="back-link" href="index.html">← Назад к разделам</a>
 
-    <h1 class="page-title">№19 — видеоразборы</h1>
-    <p class="page-subtitle">Разборы задач и задания для самостоятельного закрепления</p>
+    <h1 class="page-title">№17 — видеоразборы</h1>
+    <p class="page-subtitle">Планиметрия: разборы задач и задания для самостоятельного закрепления</p>
 
-    <div id="theory" class="theory-block" hidden>
-      <div>
-        <h3>Теория</h3>
-        <p>Базовые идеи и подходы к решению задания №19</p>
-      </div>
-      <a id="theory-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="#">Открыть теорию</a>
-    </div>
+    <section id="theory-section" class="theory-section" hidden>
+      <h2 class="theory-title">Теория и полезные вводные</h2>
+      <div id="theory-grid" class="theory-grid"></div>
+    </section>
 
     <div class="stats" id="stats"></div>
 
@@ -29,7 +26,7 @@
         class="search"
         type="search"
         inputmode="numeric"
-        placeholder="Найти задачу, например 37"
+        placeholder="Найти задачу, например 17.5"
         aria-label="Поиск задачи по номеру"
       />
       <nav class="range-nav" id="range-nav" aria-label="Быстрый переход"></nav>
@@ -41,14 +38,13 @@
 
   <script>
     window.SECTION_CONFIG = {
-      section: '19',
-      dataVar: 'DATA_19',
-      dataUrl: 'data/19.json',
-      maxNumber: 119,
-      legacyTheory: true,
+      section: '17',
+      dataVar: 'DATA_17',
+      dataUrl: 'data/17.json',
+      maxNumber: 61,
     };
   </script>
-  <script src="data/19.js"></script>
+  <script src="data/17.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
