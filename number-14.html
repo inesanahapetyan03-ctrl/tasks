@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>№14 — стереометрия</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <a class="back-link" href="index.html">← Назад к разделам</a>
+
+    <h1 class="page-title">№14 — стереометрия</h1>
+    <p class="page-subtitle">Теория, типовые задачи и задания для закрепления по стереометрии.</p>
+
+    <div class="stats" id="stats"></div>
+
+    <section id="general-theory" class="theory-section" hidden>
+      <h2 class="theory-title">Общая теория по №14</h2>
+      <div id="general-theory-card" class="theory-grid"></div>
+    </section>
+
+    <section class="topic-nav-section">
+      <h2 class="theory-title">Темы</h2>
+      <nav id="topic-nav" class="topic-nav" aria-label="Быстрый переход по темам"></nav>
+    </section>
+
+    <div class="controls">
+      <input
+        id="search"
+        class="search"
+        type="search"
+        placeholder="Найти тему или задачу, например 14.6.12 или объём"
+        aria-label="Поиск по теме или задаче"
+      />
+    </div>
+
+    <div id="topics"></div>
+    <div id="empty" class="empty" hidden>Ничего не найдено</div>
+  </main>
+
+  <script src="data/14.js"></script>
+  <script src="assets/app-14.js"></script>
+</body>
+</html>
